@@ -1,0 +1,33 @@
+{
+  "name": "my-ol-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.12"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "file-saver": "^2.0.5",
+    "gdal": "^0.11.1",
+    "geotiff": "^2.1.2",
+    "jszip": "^3.10.1",
+    "ol": "^8.2.0",
+    "ol-ext": "^4.0.14",
+    "ol-stac": "^1.0.0-beta.6",
+    "proj4": "^2.10.0",
+    "shp": "^0.0.1",
+    "shp-write": "^0.3.2",
+    "shpjs": "^4.0.4"
+  },
+  "description": "This example demonstrates how the `ol` package can be used with [Vite](https://vitejs.dev/).",
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
